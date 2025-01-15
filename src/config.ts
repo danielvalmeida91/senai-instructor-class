@@ -1,15 +1,15 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
-  title: "AstroPaper",
-  ogImage: "astropaper-og.jpg",
+  website: "https://github.com/danielvalmeida91/",
+  author: "Daniel Ventura de Almeida",
+  profile: "https://github.com/danielvalmeida91/",
+  desc: "Blog criado para compartilhar conhecimento sobre desenvolvimento web.",
+  title: "Aulas - SENAI",
+  ogImage: "og-wallpaper-blog.jpeg",
   lightAndDarkMode: true,
   postPerIndex: 4,
-  postPerPage: 3,
+  postPerPage: 5,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
   showArchives: true,
   editPost: {
@@ -20,8 +20,8 @@ export const SITE: Site = {
 };
 
 export const LOCALE = {
-  lang: "en", // html lang code. Set this empty and default will be "en"
-  langTag: ["en-EN"], // BCP 47 Language Tags. Set this empty [] to use the environment default
+  lang: "pt", // html lang code. Set this empty and default will be "en"
+  langTag: ["pt-BR"], // BCP 47 Language Tags. Set this empty [] to use the environment default
 } as const;
 
 export const LOGO_IMAGE = {
@@ -34,26 +34,20 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
-    active: true,
-  },
-  {
-    name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
+    href: "https://github.com/danielvalmeida91/",
+    linkTitle: `${SITE.author} on Github`,
     active: true,
   },
   {
     name: "Instagram",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    href: "https://instragram.com/danielvalmeida91",
+    linkTitle: `${SITE.author} on Instagram`,
     active: true,
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on LinkedIn`,
+    href: "https://linkedin.com/in/danielvalmeida91/",
+    linkTitle: `${SITE.author} on LinkedIn`,
     active: true,
   },
   {
@@ -113,7 +107,7 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Discord",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Discord`,
+    linkTitle: `${SITE.author} on Discord`,
     active: false,
   },
   {

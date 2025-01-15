@@ -50,7 +50,7 @@ export default function Datetime({
           pubDatetime={pubDatetime}
           modDatetime={modDatetime}
         />
-        {size === "lg" && <EditPost editPost={editPost} postId={postId} />}
+        {/* {size === "lg" && <EditPost editPost={editPost} postId={postId} />} */}
       </span>
     </div>
   );
@@ -65,6 +65,7 @@ const FormattedDatetime = ({ pubDatetime, modDatetime }: DatetimesProps) => {
     year: "numeric",
     month: "short",
     day: "numeric",
+    timeZone: "America/Sao_Paulo"
   });
 
   const time = myDatetime.toLocaleTimeString(LOCALE.langTag, {
