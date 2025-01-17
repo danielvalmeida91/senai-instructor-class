@@ -13,8 +13,6 @@ Este blog tem como intuito centralizar e arquivar o conhecimento transmitido em 
 ## ✨ Feedback & Sugestões
 Fique a vontade em opinar sobre melhorias. Sua crítica também será bem vinda! Enjoy 🚀
 
-> This blog was created 
-
 ---
 
 Made with 🤍 by [Daniel Ventura de Almeida](https://github.com/danielvalmeida91) 👨🏻‍💻, based on Astro template by [Sat Naing](https://satnaing.dev).
