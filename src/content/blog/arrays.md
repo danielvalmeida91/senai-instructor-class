@@ -1,8 +1,8 @@
 ---
 author: Daniel Ventura de Almeida
-pubDatetime: 2025-01-14T22:22:00Z
+pubDatetime: 2024-12-20T23:00:00Z
 modDatetime: 
-title: Utilizando Arrays em JavaScript
+title: Arrays em JavaScript
 slug: arrays-in-javascript
 featured: true
 draft: false

@@ -5,7 +5,7 @@ export const SITE: Site = {
   author: "Daniel Ventura de Almeida",
   profile: "https://github.com/danielvalmeida91/",
   desc: "Blog criado para compartilhar conhecimento sobre desenvolvimento web.",
-  title: "Aulas - SENAI",
+  title: "Blog do Javascript",
   ogImage: "og-wallpaper-blog.jpeg",
   lightAndDarkMode: true,
   postPerIndex: 4,
