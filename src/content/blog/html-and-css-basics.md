@@ -1,6 +1,6 @@
 ---
 author: Daniel Ventura de Almeida
-pubDatetime: 2024-12-20T22:59:00Z
+pubDatetime: 2024-12-19T21:30:00Z
 modDatetime: 
 title: HTML e CSS, Básico
 slug: html-and-css-basics
@@ -78,11 +78,6 @@ Introduzir os fundamentos de HTML e CSS, permitindo que você crie suas primeira
    - **Estrutura e Conteúdo**: `<h1>` a `<h6>` (títulos), `<p>` (parágrafos), `<a>` (links), `<img>` (imagens).
    - **Listas**: `<ul>` (lista não ordenada), `<ol>` (lista ordenada), `<li>` (item de lista).
 
-### Exercício Proposto
-- Crie um arquivo `index.html` e um arquivo `estilos.css`.
-- No `index.html`, adicione um título, um parágrafo, um link e uma imagem.
-- No `estilos.css`, aplique uma cor ao texto e altere o fundo da página.
-
 ---
 
 ## Post 2: Aprofundando em HTML e CSS - Construindo Layouts
@@ -154,10 +149,6 @@ Ensinar conceitos intermediários de HTML e CSS, focando em organização e desi
      </div>
      ```
 
-### Exercício Proposto
-- Crie uma página com cabeçalho, navegação, conteúdo principal e rodapé.
-- Use Flexbox para organizar os itens da navegação.
-
 ---
 
 ## Post 3: Avançando com HTML e CSS - Técnicas e Boas Práticas
@@ -200,10 +191,6 @@ Explorar conceitos avançados e boas práticas para criar páginas modernas e ac
          animation: fadeIn 2s;
      }
      ```
-
-### Exercício Proposto
-- Crie um formulário de contato responsivo.
-- Adicione animações aos botões quando o mouse passar sobre eles.
 
 ---
 
