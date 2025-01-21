@@ -12,7 +12,7 @@ tags:
 description:
   Como utilizar arrays em javascript.
 ---
-# Utilizando Arrays em JavaScript
+# Utilização de Arrays em JavaScript
 
 Os arrays são uma das estruturas de dados fundamentais em JavaScript, amplamente utilizados para armazenar e manipular coleções de dados. Neste artigo, vamos explorar:
 
