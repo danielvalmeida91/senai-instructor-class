@@ -14,6 +14,8 @@ description:
 ---
 # Utilização de Arrays em JavaScript
 
+## Table of Contents
+
 Os arrays são uma das estruturas de dados fundamentais em JavaScript, amplamente utilizados para armazenar e manipular coleções de dados. Neste artigo, vamos explorar:
 
 - O que são arrays.
