@@ -1,7 +1,7 @@
 ---
 author: Daniel Ventura de Almeida
 pubDatetime: 2025-01-30T23:45:00Z
-modDatetime: 
+modDatetime: 2025-01-31T20:39:00Z
 title: Criando uma SPA com Javascript
 slug: spa-in-javascript
 featured: true
@@ -30,11 +30,11 @@ Vamos construir uma SPA simples que carrega dinamicamente quatro páginas HTML d
 Nosso projeto será estruturado da seguinte maneira:
 ```
 /spa-project
-│──── pages
-│────── about.html
-│────── contact.html
-│────── home.html
-│────── 404.html
+│── pages/
+│   │── about.html
+│   │── contact.html
+│   │── home.html
+│   │── 404.html
 │── index.html
 │── route.js
 ```
