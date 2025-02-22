@@ -1,7 +1,7 @@
 ---
 author: Daniel Ventura de Almeida
 pubDatetime: 2025-02-21T23:14:00Z
-modDatetime: 
+modDatetime: 2025-02-22T00:24:00Z
 title: Requisições com fetch()
 slug: using-fetch-with-react
 featured: true
@@ -51,7 +51,7 @@ Agora, vamos analisar um exemplo real para um sistema de login em um contexto ma
 ```js
 import { useState } from 'react';
 
-function Login() {
+function LoginPage() {
     const [registration, setRegistration] = useState('');
     const [password, setPassword] = useState('');
     const [errorApi, setErrorApi] = useState({});
@@ -64,7 +64,7 @@ function Login() {
         };
 
         try {
-            const response = await fetch('https://endereco-da-minha-api.com.br/login', {
+            const response = await fetch('https://daniel.cddtecnologia.com.br/login', {
                 method: "POST",
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(loginObject)
@@ -91,13 +91,13 @@ function Login() {
             <input type="text" placeholder="Matrícula" value={registration} onChange={(e) => setRegistration(e.target.value)} />
             <input type="password" placeholder="Senha" value={password} onChange={(e) => setPassword(e.target.value)} />
             <button onClick={handleLogin}>Login</button>
-            {successApi && <p>{successApi}</p>}
-            {errorApi && <p style={{ color: 'red' }}>{errorApi}</p>}
+            {successApi ? <p>{successApi}</p> : ''}
+            {errorApi ? <p>{errorApi.message}</p> : ''}
         </div>
     );
 }
 
-export default Login;
+export {LoginPage};
 ```
 
 ---
