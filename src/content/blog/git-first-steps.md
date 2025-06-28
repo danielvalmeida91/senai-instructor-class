@@ -178,4 +178,3 @@ Quando você atinge um marco importante, como o lançamento da "versão 1.0", vo
 ## Referências
 
 - [Documentação Oficial - GitHub Docs](https://docs.github.com/pt)
-https://docs.github.com/pt
